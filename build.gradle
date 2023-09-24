@@ -33,6 +33,12 @@ dependencies {
 	testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
 }
 
+tasks.jar{
+	manifest{
+		attributes["Main-Class"] = "me.dio.Application"
+	}
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }
