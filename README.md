@@ -59,5 +59,5 @@ classDiagram
 ```
 ## Documentação da API (Swagger)
 
-https://santanderbootcampapi-prd.up.railway.app/swagger-ui/index.html
+
 
